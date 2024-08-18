@@ -1,0 +1,15 @@
+title: "Main Menu"
+size: 53
+openCommand: menu
+items:
+  glass:
+    material: glass
+    slot: 0
+    amount: 2
+    on_click:
+      left:
+        - 'rtpdefault {player_name}'
+        - 'message: Игрок {player_name} выполнил команду из меню'
+  glass-1:
+    material: glass
+    slot: 1

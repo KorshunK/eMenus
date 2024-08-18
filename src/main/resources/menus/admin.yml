@@ -1,0 +1,12 @@
+title: "Admin Menu"
+size: 53
+openCommand: admin
+permission: emenus.adminmenu
+items:
+  glass:
+    material: bedrock
+    slot: 0
+    on_click:
+      left:
+        - 'rtpdefault {player_name}'
+        - 'message: Игрок {player_name} выполнил команду из меню'
